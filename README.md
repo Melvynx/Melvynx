@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+- 🔭 I’m currently working on QoQa.ch
+- 🌱 and I’m currently learning `React` and `Ruby on Rails`. I made `webserver` and learn how make `migration`.
+
 <!--
 **Melvynx/Melvynx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
