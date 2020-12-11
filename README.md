@@ -9,4 +9,6 @@
 
 #### My favorites languages ❤️
 
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melvynx&layout=compact&theme=onedark" />
+<a href="https://github.com/Melvynx/Melvynx">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melvynx&layout=compact&theme=onedark" />
+</a>
