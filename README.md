@@ -1,7 +1,10 @@
 ### Hi there 👋
 
 - 🔭 I’m currently working on QoQa.ch
-- 🌱 and I’m currently learning `React` and `Ruby on Rails`. I made `webserver` and learn how make `migration`.
+- 🌱 and I’m currently learning `React` and `Ruby on Rails`.
+
+![Melvynx's github stats](https://github-readme-stats.vercel.app/api?username=melvynx&show_icons=true&hide=[%22stars%22]&show_private=true&theme=onedark)
+d
 
 <!--
 **Melvynx/Melvynx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
