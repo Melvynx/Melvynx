@@ -4,9 +4,9 @@
 
 ### My skills 😛
 
-<img src="https://github-readme-stats.vercel.app/api?username=melvynx&show_icons=true&hide=[%22stars%22]&show_private=true&theme=onedark" alt="melvynx's github card" align="right" width="330" />
+<img src="https://github-readme-stats.vercel.app/api?username=melvynx&show_icons=true&hide=[%22stars%22]&show_private=true&theme=onedark" alt="melvynx's github card" align="right" height="160" />
 
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melvynx&layout=compact&theme=onedark" alt="melvynx's top languages" align="left" width="330" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melvynx&layout=compact&theme=onedark" alt="melvynx's top languages" align="left" height="160" />
 
 ### About my knowledge 👨‍🎓
 
