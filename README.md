@@ -8,7 +8,7 @@
 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=melvynx&layout=compact&theme=onedark" alt="melvynx's top languages" align="left" height="160" />
 
-### About my knowledge 👨‍🎓
+### About my knowledge 👨‍🎓
 
 ```json
 {
