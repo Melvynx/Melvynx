@@ -13,6 +13,7 @@ function readREADME() {
       if (err) {
         reject(err);
       }
+      console.log('CURRENT README FILE', ata);
       resolve(data);
     });
   });
@@ -32,6 +33,7 @@ async function updateDayBeforeNewYears() {
   const lastRow = dataRow[dataRow.length - 2];
 
   const isValidLastRow = isAnDayBeforeNewYearsRow(lastRow);
+  console.log('IS VALID ROW :', isValidLastRow);
 
   if (isValidLastRow) {
     dataRow[dataRow.length - 2] = getDayBeforeNewYearsSentence();
