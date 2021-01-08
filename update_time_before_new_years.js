@@ -1,22 +1,8 @@
-const fs = require('fs');
-var exec = require('child_process').exec;
+const { promises: fs } = require('fs');
 
 console.log('START TEST');
 
 const msInOneDay = 1000 * 60 * 60 * 24;
-
-function readREADME() {
-  console.log('START READING');
-  return new Promise((resolve, reject) => {
-    fs.readFile('./README.md', 'utf8', function (err, data) {
-      if (err) {
-        reject(err);
-      }
-      console.log('CURRENT README FILE', data);
-      resolve(data);
-    });
-  });
-}
 
 function replaceREADME(text) {
   fs.writeFile('./README.md', text, function (err) {
@@ -26,7 +12,9 @@ function replaceREADME(text) {
 }
 
 async function updateDayBeforeNewYears() {
-  const data = await readREADME();
+  const data = await fs.readFile('./README.md', 'utf8');
+
+  console.error('Current data :', data);
 
   const dataRow = data.split('\n');
   const lastRow = dataRow[dataRow.length - 2];
