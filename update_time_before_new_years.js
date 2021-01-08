@@ -26,7 +26,7 @@ async function updateDayBeforeNewYears() {
   const dataRow = data.split('\n');
   const lastRow = dataRow[dataRow.length - 2];
 
-  const isValidLastRow = checkRow(lastRow);
+  const isValidLastRow = isAnDayBeforeNewYearsRow(lastRow);
 
   if (isValidLastRow) {
     dataRow[dataRow.length - 2] = getDayBeforeNewYearsSentence();
@@ -50,9 +50,6 @@ function getDayBeforeNewYearsSentence() {
   return `${dayCount} day before ${nextYears}`;
 }
 
-function checkRow(row) {
-  const reggex = new RegExp('day before', 'i');
-  return Boolean(row.match(reggex));
-}
+const isAnDayBeforeNewYearsRow = (row = '') => Boolean(row.match(/day before/i));
 
 updateDayBeforeNewYears();
