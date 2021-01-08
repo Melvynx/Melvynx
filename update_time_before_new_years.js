@@ -1,7 +1,5 @@
 const { promises: fs } = require('fs');
 
-console.log('START TEST');
-
 const msInOneDay = 1000 * 60 * 60 * 24;
 
 function replaceREADME(text) {
