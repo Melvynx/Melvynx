@@ -32,3 +32,7 @@
   }
 }
 ```
+
+### Counter before next year
+
+358 day before 2022
