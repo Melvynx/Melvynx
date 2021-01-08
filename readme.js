@@ -1,20 +1,22 @@
-### Hi there 👋
+module.exports = `### Hi there 👋
 
 I represent myself as a penguin bear 🐧🐻 and I currently worked at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
-I really like know how many day I need to live before new years, so I put a homemade counter :
-_357 day before 2022_
+I need to know how many day I need to live before new years 😂, so I put a homemade counter :
+
+<#day_before_new_years>
 
 ### My skills 😛
 
 <img src="https://github-readme-stats.vercel.app/api?username=melvynx&show_icons=true&hide=[%22stars%22]&show_private=true&theme=onedark" alt="melvynx's github card" align="right" height="160" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=melvynx&layout=compact&theme=onedark" alt="melvynx's top languages" align="left" height="160" />
+<br /><br /><br /><br /><br /><br /><br />
 
 ### About my knowledge 👨‍🎓
 
-```json
+\`\`\`json
 {
   "name": "Melvyn",
   "languages": ["ruby", "js", "c#", "java", "kotlin", "python"],
@@ -35,8 +37,10 @@ _357 day before 2022_
     "tools": ["GIT", "GitHub", "GitLab", "VSCode", "Prettier", "Rubocop"]
   }
 }
-```
+\`\`\`
 
 ### Links
 
 <img align="center" src="https://img.shields.io/github/followers/Melvynx?label=Follow%20my%20github%20%E2%9D%A4%EF%B8%8F&style=flat&color=red" alt="melvynx follow" />
+
+`;
