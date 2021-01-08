@@ -1,0 +1,37 @@
+name: Time before new years
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    # “At 13:37 on every day-of-week from Monday through Friday.”
+    - cron: '04 4 * * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Update time before new years
+        run: |
+          node update_time_before_new_years.js > README.md
+        env:
+          CI: true
+      - name: commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Melvynx
+          author_email: melvynmal@gmail.com
+          force: false
+          signoff: false
+          message: 'README updated by GitHub Actions'
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

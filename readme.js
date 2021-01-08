@@ -1,11 +1,11 @@
-### Hi there 👋
+module.exports = `### Hi there 👋
 
 I represent myself as a penguin bear 🐧🐻 and I currently worked at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 I need to know how many day I need to live before new years 😂, so I put a homemade counter :
 
-**357 day before 2022**
+<#day_before_new_years>
 
 ### My skills 😛
 
@@ -16,7 +16,7 @@ I need to know how many day I need to live before new years 😂, so I put a hom
 
 ### About my knowledge 👨‍🎓
 
-```json
+\`\`\`json
 {
   "name": "Melvyn",
   "languages": ["ruby", "js", "c#", "java", "kotlin", "python"],
@@ -37,9 +37,10 @@ I need to know how many day I need to live before new years 😂, so I put a hom
     "tools": ["GIT", "GitHub", "GitLab", "VSCode", "Prettier", "Rubocop"]
   }
 }
-```
+\`\`\`
 
 ### Links
 
 <img align="center" src="https://img.shields.io/github/followers/Melvynx?label=Follow%20my%20github%20%E2%9D%A4%EF%B8%8F&style=flat&color=red" alt="melvynx follow" />
 
+`;
