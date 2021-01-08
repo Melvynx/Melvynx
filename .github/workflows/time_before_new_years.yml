@@ -1,10 +1,11 @@
-name: Waka Readme
+name: Time before new years
 
 on:
+  push:
   workflow_dispatch:
   schedule:
-    # Runs at 00:00AM UTC
-    - cron: '*/2 * * * *'
+    # “At 13:37 on every day-of-week from Monday through Friday.”
+    - cron: '* * * * *'
 
 jobs:
   update-readme:
@@ -13,9 +14,9 @@ jobs:
       matrix:
         node-version: [14.x]
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
       - name: Update time before new years
@@ -23,3 +24,14 @@ jobs:
           node update_time_before_new_years.js
         env:
           CI: true
+      - name: commit changes
+        uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
+        with:
+          author_name: Melvynx
+          author_email: melvynmal@gmail.com
+          force: false
+          signoff: false
+          message: 'README updated by GitHub Actions'
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
