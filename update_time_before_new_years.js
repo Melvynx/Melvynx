@@ -13,7 +13,7 @@ function readREADME() {
       if (err) {
         reject(err);
       }
-      console.log('CURRENT README FILE', ata);
+      console.log('CURRENT README FILE', data);
       resolve(data);
     });
   });
