@@ -1,4 +1,9 @@
 const fs = require('fs');
+var exec = require('child_process').exec;
+
+exec('ls -la', function (err, stdout, stderr) {
+  console.log(stdout);
+});
 
 const msInOneDay = 1000 * 60 * 60 * 24;
 
