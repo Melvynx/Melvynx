@@ -1,6 +1,6 @@
 module.exports = `### Hi there 👋
 
-I represent myself as a penguin bear 🐧🐻 and I currently worked at QoQa.ch as otter 🦦.
+I represent myself as a penguin bear 🐧🐻 and I work at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 I need to know how many day I need to live before new years 😂, so I put a homemade counter :
