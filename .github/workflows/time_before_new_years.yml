@@ -21,7 +21,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Update time before new years
         run: |
-          node update_time_before_new_years.js > README.md
+          node index.js > README.md
         env:
           CI: true
       - name: commit changes
