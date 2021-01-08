@@ -4,7 +4,7 @@ const msInOneDay = 1000 * 60 * 60 * 24;
 
 function readREADME() {
   return new Promise((resolve, reject) => {
-    fs.readFile('README.md', 'utf8', function (err, data) {
+    fs.readFile('./README.md', 'utf8', function (err, data) {
       if (err) {
         reject(err);
       }
@@ -14,7 +14,7 @@ function readREADME() {
 }
 
 function replaceREADME(text) {
-  fs.writeFile('README.md', text, function (err) {
+  fs.writeFile('./README.md', text, function (err) {
     if (err) throw new Error(`WriteFile error ${err}`);
     console.log(text);
   });
