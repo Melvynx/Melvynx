@@ -16,7 +16,7 @@ function readREADME() {
 function replaceREADME(text) {
   fs.writeFile('README.md', text, function (err) {
     if (err) throw new Error(`WriteFile error ${err}`);
-    console.log(`Hello World > ${text}`);
+    console.log(text);
   });
 }
 
