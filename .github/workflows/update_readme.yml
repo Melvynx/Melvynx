@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Update time before new years
+      - name: Update README.md file
         run: |
           node index.js > README.md
         env:
