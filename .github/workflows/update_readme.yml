@@ -1,4 +1,4 @@
-name: Time before new years
+name: Update README all day at 04:04
 
 on:
   push:
