@@ -5,7 +5,7 @@ Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 I need to know how many day I need to live before new years 😂, so I put a homemade counter :
 
-**357 day before 2022 ⏱**
+**400 day before 2022 ⏱**
 
 ### My skills 😛
 
