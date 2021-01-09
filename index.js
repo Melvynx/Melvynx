@@ -3,38 +3,38 @@ const readme = require('./readme');
 
 const msInOneDay = 1000 * 60 * 60 * 24;
 
-function replaceREADME(text) {
-  fs.writeFile('./README.md', text, function (err) {
-    if (err) throw new Error(`WriteFile error ${err}`);
-    console.log(text);
-  });
+function generateNewREADME() {
+  const readmeRow = readme.split('\n');
+
+  // * DBNW = Day Before New Year
+  const rowIndex = findDBNWIndex(readmeRow);
+  readmeRow[rowIndex] = getDBNWSentence();
+
+  return readmeRow.join('\n');
 }
 
-async function updateDayBeforeNewYears() {
-  const data = readme;
+function getDBNWSentence() {
+  const now = new Date();
+  const nextYear = now.getFullYear() + 1;
 
-  const dataRow = data.split('\n');
-  const rowIndex = findRowIndex(dataRow);
+  const nextYearDate = new Date(String(nextYear));
+  const timeUntilNewYear = nextYearDate - now;
+  const dayUntilNewYear = Math.round(timeUntilNewYear / msInOneDay);
 
-  dataRow[rowIndex] = getDayBeforeNewYearsSentence();
-
-  replaceREADME(dataRow.join('\n'));
+  return `**${dayUntilNewYear} day before ${nextYear} ⏱**`;
 }
 
-function getDayBeforeNewYearsSentence() {
-  const nowDate = new Date();
-  const nextYears = nowDate.getFullYear() + 1;
-
-  const nextYearsDate = new Date(String(nextYears));
-  const diff = nextYearsDate - nowDate;
-  const dayCount = Math.round(diff / msInOneDay);
-
-  return `**${dayCount} day before ${nextYears}**`;
-}
-
-const findRowIndex = (rows) =>
+const findDBNWIndex = (rows) =>
   rows.findIndex((r) => Boolean(r.match(/<#day_before_new_years>/i)));
 
 const isAnDayBeforeNewYearsRow = (row = '') => Boolean(row.match(/day before/i));
 
-updateDayBeforeNewYears();
+const updateREADMEFile = (text) =>
+  fs.writeFile('./README.md', text, (e) => console.log(text));
+
+function main() {
+  const newREADME = generateNewREADME();
+  console.log(newREADME);
+  updateREADMEFile(newREADME);
+}
+main();
