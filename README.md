@@ -5,7 +5,7 @@ Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 Here is my homemade daytime ☀️ counter before next year ⏱ :
 
-**353 day before 2022 ⏱**
+**352 day before 2022 ⏱**
 
 ### My skills 😛
 
