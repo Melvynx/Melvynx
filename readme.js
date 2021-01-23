@@ -11,7 +11,7 @@ Here is my homemade daytime ☀️ counter before next year ⏱ :
 
 |my GitHub pages|my personal website|
 |---------------|-------------------|
-|<img src="https://raw.githubusercontent.com/Melvynx/Melvynx/master/images/melvynx.com.png" alt="melvynx's github card" align="right" height="160" />|<img src="https://raw.githubusercontent.com/Melvynx/Melvynx/master/images/melvynx.com.png" alt="melvynx's github card" align="right" height="160" />|
+|<img src="https://raw.githubusercontent.com/Melvynx/Melvynx/master/images/melvynx.com.png" alt="melvynx's github card" align="right" height="220" />|<img src="https://raw.githubusercontent.com/Melvynx/Melvynx/master/images/melvynx.com.png" alt="melvynx's github card" align="right" height="220" />|
 
 ### My skills 😛
 
