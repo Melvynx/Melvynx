@@ -7,8 +7,8 @@ function generateNewREADME() {
   const readmeRow = readme.split('\n');
 
   // * DBNW = Day Before New Year
-  const rowIndex = findDBNWIndex(readmeRow);
-  readmeRow[rowIndex] = getDBNWSentence();
+  const DBNWIndex = findDBNWIndex(readmeRow);
+  readmeRow[DBNWIndex] = getDBNWSentence();
 
   return readmeRow.join('\n');
 }
@@ -16,8 +16,8 @@ function generateNewREADME() {
 function getDBNWSentence() {
   const now = new Date();
   const nextYear = now.getFullYear() + 1;
-
   const nextYearDate = new Date(String(nextYear));
+
   const timeUntilNewYear = nextYearDate - now;
   const dayUntilNewYear = Math.round(timeUntilNewYear / msInOneDay);
 
@@ -26,8 +26,6 @@ function getDBNWSentence() {
 
 const findDBNWIndex = (rows) =>
   rows.findIndex((r) => Boolean(r.match(/<#day_before_new_years>/i)));
-
-const isAnDayBeforeNewYearsRow = (row = '') => Boolean(row.match(/day before/i));
 
 const updateREADMEFile = (text) =>
   fs.writeFile('./README.md', text, (e) => console.log(text));
