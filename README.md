@@ -5,7 +5,15 @@ Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 Here is my homemade daytime ☀️ counter before next year ⏱ :
 
-**343 day before 2022 ⏱**
+**342 day before 2022 ⏱**
+
+### My sites
+
+|my GitHub pages|my personal website|
+|---------------|-------------------|
+|<img src="https://github-readme-stats.vercel.app/api?username=melvynx&show_icons=true&hide=[%22stars%22]&show_private=true&theme=onedark" alt="melvynx's github card" align="right" height="160" />
+|<img src="https://github-readme-stats.vercel.app/api?username=melvynx&show_icons=true&hide=[%22stars%22]&show_private=true&theme=onedark" alt="melvynx's github card" align="right" height="160" />
+|
 
 ### My skills 😛
 
