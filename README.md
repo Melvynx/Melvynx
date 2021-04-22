@@ -29,12 +29,22 @@ Here is my homemade daytime ☀️ counter before next year ⏱ :
     "back-end": {
       "js": ["fastify"],
       "ruby": ["Ruby on Rails"],
-      "python": ["Flask"]
+      "python": ["Flask"],
+      "c#": ["Dotnet"]
     },
     "dev-ops": ["Docker 🐳"],
-    "data-base": ["mysql", "postgresql", "(mangodb)"],
+    "data-base": ["mysql", "postgresql", "mangodb"],
     "misc": ["Firebase"],
-    "tools": ["GIT", "GitHub", "GitLab", "VSCode", "Prettier", "Rubocop"]
+    "tools": [
+      "GIT",
+      "GitHub",
+      "VSCode",
+      "Prettier",
+      "Rubocop",
+      "bash",
+      "nginx",
+      "aws"
+    ]
   }
 }
 ```
