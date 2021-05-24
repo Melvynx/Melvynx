@@ -18,15 +18,22 @@ function generateNewREADME() {
 }
 
 function getAgeAndBirthdaySentence() {
-  const birthdate = new Date('2002-05-06T00:00:00.000Z');
+  const birthday = new Date('2002-05-06T00:00:00.000Z');
   const today = new Date();
-  const diff = birthdate - today;
+  const diffBirthdayToToday = today - birthday;
 
   // to get my current ages
-  const age = new Date(diff).getFullYear() - 1970;
+  const age = new Date(diffBirthdayToToday).getFullYear() - 1970;
 
-  const timeUntilBirthday = birthdate - new Date(String(birthdate.getFullYear + 1));
-  const dayUntilBirthday = Math.round(timeUntilNewYear / msInOneDay);
+  const birthdatetoday = new Date(birthday.setYear(today.getFullYear()));
+  const isBirthdayRaised = today - birthdatetoday > 0;
+
+  const nextBirthdayYear = birthday.getFullYear() + (isBirthdayRaised ? 1 : 0);
+  const nextBirthdayDate = new Date(birthday.getTime());
+  nextBirthdayDate.setYear(nextBirthdayYear);
+
+  const timeUntilBirthday = nextBirthdayDate - today;
+  const dayUntilBirthday = Math.round(timeUntilBirthday / msInOneDay);
 
   return `I am ${age} years old... But I will be ${
     age + 1
@@ -45,7 +52,7 @@ function getDBNWSentence() {
 }
 
 const findIdentifierIndex = (rows, identifier) =>
-  rows.findIndex((r) => Boolean(r.match(new RegExp(`<#${identifier}>`, i))));
+  rows.findIndex((r) => Boolean(r.match(new RegExp(`<#${identifier}>`, 'i'))));
 
 const updateREADMEFile = (text) =>
   fs.writeFile('./README.md', text, (e) => console.log(text));
