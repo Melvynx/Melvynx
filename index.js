@@ -7,10 +7,30 @@ function generateNewREADME() {
   const readmeRow = readme.split('\n');
 
   // * DBNW = Day Before New Year
-  const DBNWIndex = findDBNWIndex(readmeRow);
+  const DBNWIndex = findIdentifierIndex(readmeRow, 'day_before_new_years');
   readmeRow[DBNWIndex] = getDBNWSentence();
 
+  //* AB = Age and birthday
+  const ABIndex = findIdentifierIndex(readmeRow, 'age_and_birthday');
+  readmeRow[ABIndex] = getAgeAndBirthdaySentence();
+
   return readmeRow.join('\n');
+}
+
+function getAgeAndBirthdaySentence() {
+  const birthdate = new Date('2002-05-06T00:00:00.000Z');
+  const today = new Date();
+  const diff = birthdate - today;
+
+  // to get my current ages
+  const age = new Date(diff).getFullYear() - 1970;
+
+  const timeUntilBirthday = birthdate - new Date(String(birthdate.getFullYear + 1));
+  const dayUntilBirthday = Math.round(timeUntilNewYear / msInOneDay);
+
+  return `I am ${age} years old... But I will be ${
+    age + 1
+  } in ${dayUntilBirthday} days 🎉`;
 }
 
 function getDBNWSentence() {
@@ -24,8 +44,8 @@ function getDBNWSentence() {
   return `**${dayUntilNewYear} day before ${nextYear} ⏱**`;
 }
 
-const findDBNWIndex = (rows) =>
-  rows.findIndex((r) => Boolean(r.match(/<#day_before_new_years>/i)));
+const findIdentifierIndex = (rows, identifier) =>
+  rows.findIndex((r) => Boolean(r.match(new RegExp(`<#${identifier}>`, i))));
 
 const updateREADMEFile = (text) =>
   fs.writeFile('./README.md', text, (e) => console.log(text));
