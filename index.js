@@ -20,10 +20,17 @@ function generateNewREADME() {
 function getAgeAndBirthdaySentence() {
   const birthday = new Date('2002-05-06T00:00:00.000Z');
   const today = new Date();
+
   const diffBirthdayToToday = today - birthday;
 
   // to get my current ages
   const age = new Date(diffBirthdayToToday).getFullYear() - 1970;
+
+  if (
+    birthday.getDate() === today.getDate() &&
+    birthday.getMonth() === today.getMonth()
+  )
+    return `Today is my birthday🎉! I am ${age} years old.`;
 
   const birthdatetoday = new Date(birthday.setYear(today.getFullYear()));
   const isBirthdayRaised = today - birthdatetoday > 0;
