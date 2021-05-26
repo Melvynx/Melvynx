@@ -14,7 +14,20 @@ function generateNewREADME() {
   const ABIndex = findIdentifierIndex(readmeRow, 'age_and_birthday');
   readmeRow[ABIndex] = getAgeAndBirthdaySentence();
 
+  const MySelfIndex = findIdentifierIndex(readmeRow, 'myself');
+  readmeRow[MySelfIndex] = readmeRow[MySelfIndex].replace('<#myself>', getMySelf());
+
   return readmeRow.join('\n');
+}
+
+function getMySelf() {
+  const today = new Date();
+
+  // test if we are in a PAIR DAY
+  if (today.getDate() % 2 === 0) {
+    if (Math.floor(Math.random() * 2)) return 'penguin 🐧';
+    else return 'bear 🐻';
+  } else return 'penguin bear 🐧🐻';
 }
 
 function getAgeAndBirthdaySentence() {
