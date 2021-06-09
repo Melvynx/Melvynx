@@ -35,7 +35,7 @@ Here is my homemade daytime ☀️ counter before next year ⏱ :
       "c#": ["Dotnet"]
     },
     "dev-ops": ["Docker 🐳"],
-    "data-base": ["mysql", "postgresql", "mangodb"],
+    "data-base": ["mysql", "postgresql", "MongoDB"],
     "misc": ["Firebase"],
     "tools": [
       "GIT",
