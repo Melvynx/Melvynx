@@ -3,11 +3,11 @@
 I represent myself as a penguin bear 🐧🐻 and I work at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
-I am 19 years old... But I will be 20 in 331 days 🎉
+I am 19 years old... But I will be 20 in 330 days 🎉
 
 Here is my homemade daytime ☀️ counter before next year ⏱ :
 
-**206 day before 2022 ⏱**
+**205 day before 2022 ⏱**
 
 ### My skills 😛
 
@@ -35,7 +35,7 @@ Here is my homemade daytime ☀️ counter before next year ⏱ :
       "c#": ["Dotnet"]
     },
     "dev-ops": ["Docker 🐳"],
-    "data-base": ["mysql", "postgresql", "mangodb"],
+    "data-base": ["mysql", "postgresql", "MongoDB"],
     "misc": ["Firebase"],
     "tools": [
       "GIT",
