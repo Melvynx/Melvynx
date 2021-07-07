@@ -57,4 +57,5 @@ I love using **github pages** to publish to publish my projects quickly and easi
 
 <img align="center" src="https://img.shields.io/github/followers/Melvynx?label=Follow%20my%20github%20%E2%9D%A4%EF%B8%8F&style=flat&color=red" alt="melvynx follow" />
 
+Last update on <#today_date>
 `;

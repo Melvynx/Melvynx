@@ -1,4 +1,4 @@
-const { promises: fs, read } = require('fs');
+const { promises: fs } = require('fs');
 const readme = require('./readme');
 
 const msInOneDay = 1000 * 60 * 60 * 24;
@@ -6,18 +6,33 @@ const msInOneDay = 1000 * 60 * 60 * 24;
 function generateNewREADME() {
   const readmeRow = readme.split('\n');
 
-  // * DBNW = Day Before New Year
-  const DBNWIndex = findIdentifierIndex(readmeRow, 'day_before_new_years');
-  readmeRow[DBNWIndex] = getDBNWSentence();
+  function updateIdentifier(identifier, replaceText) {
+    const identifierIndex = findIdentifierIndex(readmeRow, identifier);
+    readmeRow[identifierIndex] = readmeRow[identifierIndex].replace(
+      `<#${identifier}>`,
+      replaceText
+    );
+  }
 
-  //* AB = Age and birthday
-  const ABIndex = findIdentifierIndex(readmeRow, 'age_and_birthday');
-  readmeRow[ABIndex] = getAgeAndBirthdaySentence();
+  const identifierToUpdate = {
+    // * DBNW = Day Before New Year
+    day_before_new_years: getDBNWSentence(),
+    //* AB = Age and birthday
+    age_and_birthday: getAgeAndBirthdaySentence(),
+    myself: getMySelf(),
+    today_date: getTodayDate(),
+  };
 
-  const MySelfIndex = findIdentifierIndex(readmeRow, 'myself');
-  readmeRow[MySelfIndex] = readmeRow[MySelfIndex].replace('<#myself>', getMySelf());
+  Object.keys(identifierToUpdate).forEach((identifier) => {
+    const result = identifierToUpdate[identifier];
+    updateIdentifier(identifier, result);
+  });
 
   return readmeRow.join('\n');
+}
+
+function getTodayDate() {
+  return new Date().toDateString();
 }
 
 function getMySelf() {
@@ -75,7 +90,7 @@ const findIdentifierIndex = (rows, identifier) =>
   rows.findIndex((r) => Boolean(r.match(new RegExp(`<#${identifier}>`, 'i'))));
 
 const updateREADMEFile = (text) =>
-  fs.writeFile('./README.md', text, (e) => console.log(text));
+  fs.writeFile('./README.md', text, () => console.log(text));
 
 function main() {
   const newREADME = generateNewREADME();
