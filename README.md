@@ -1,13 +1,13 @@
 ### Hi there 👋
 
-I represent myself as a penguin bear 🐧🐻 and I work at QoQa.ch as otter 🦦.
+I represent myself as a penguin 🐧 and I work at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
-I am 19 years old... But I will be 20 in 301 days 🎉
+I am 19 years old... But I will be 20 in 300 days 🎉
 
 Here is my homemade daytime ☀️ counter before next year ⏱ :
 
-**176 day before 2022 ⏱**
+**175 day before 2022 ⏱**
 
 ### My skills 😛
 
@@ -57,4 +57,4 @@ I love using **github pages** to publish to publish my projects quickly and easi
 
 <img align="center" src="https://img.shields.io/github/followers/Melvynx?label=Follow%20my%20github%20%E2%9D%A4%EF%B8%8F&style=flat&color=red" alt="melvynx follow" />
 
-Last update on Fri Jul 09 2021
+Last update on Sat Jul 10 2021
