@@ -39,10 +39,11 @@ function getMySelf() {
   const today = new Date();
 
   // test if we are in a PAIR DAY
-  if (today.getDate() % 2 === 0) {
-    if (Math.floor(Math.random() * 2)) return 'penguin 🐧';
-    else return 'bear 🐻';
-  } else return 'penguin bear 🐧🐻';
+  return today.getDate() % 2 === 0 
+    ? (Math.floor(Math.random() * 2) 
+      ? "penguin 🐧" 
+      : "bear 🐻") 
+    : "penguin bear 🐧🐻";
 }
 
 function getAgeAndBirthdaySentence() {
@@ -70,9 +71,8 @@ function getAgeAndBirthdaySentence() {
   const timeUntilBirthday = nextBirthdayDate - today;
   const dayUntilBirthday = Math.round(timeUntilBirthday / msInOneDay);
 
-  return `I am ${age} years old... But I will be ${
-    age + 1
-  } in ${dayUntilBirthday} days 🎉`;
+  return `I am ${age} years old... But I will be ${age + 1
+    } in ${dayUntilBirthday} days 🎉`;
 }
 
 function getDBNWSentence() {
