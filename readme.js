@@ -18,7 +18,7 @@ Here is my homemade daytime ☀️ counter before next year ⏱ :
 
 ### About my knowledge 👨‍🎓
 
-I love using **github pages** to publish to publish my projects quickly and easily. My main [github pages](https://melvynx.github.io/) contain links to go on other github pages.
+I love using **github pages** to publish my projects quickly and easily. My main [github pages](https://melvynx.github.io/) contain links to go on other github pages.
 
 \`\`\`json
 {
