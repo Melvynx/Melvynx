@@ -23,8 +23,7 @@ function generateNewREADME() {
     today_date: getTodayDate(),
   };
 
-  Object.keys(identifierToUpdate).forEach((identifier) => {
-    const result = identifierToUpdate[identifier];
+  Object.values(identifierToUpdate).forEach((identifier) => {
     updateIdentifier(identifier, result);
   });
 
