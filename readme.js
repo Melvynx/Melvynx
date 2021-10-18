@@ -3,11 +3,11 @@ module.exports = `### Hi there 👋
 I represent myself as a <#myself> and I work at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
+💬 Speak with me on [Twitter](https://twitter.com/melvynx_)
+
 <#age_and_birthday>
 
-Here is my homemade daytime ☀️ counter before next year ⏱ :
-
-<#day_before_new_years>
+Here is my homemade daytime ☀️ counter before next year ⏱ <#day_before_new_years>
 
 ### My skills 😛
 
