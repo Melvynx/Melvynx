@@ -59,5 +59,5 @@ I love using **github pages** to publish my projects quickly and easily. My main
 
 Last update on <#today_date>
 
-🤖 This README.md is updated with love by Gabot ❤️
+<#gabot_signing>
 `;

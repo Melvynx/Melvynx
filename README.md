@@ -59,4 +59,4 @@ I love using **github pages** to publish my projects quickly and easily. My main
 
 Last update on Tue Oct 26 2021
 
-🤖 This README.md is updated with love by Gabot ❤️
+🤖 This README.md is updated with wickedness, by Gabot ❤️

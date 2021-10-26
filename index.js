@@ -3,6 +3,8 @@ const readme = require('./readme');
 
 const msInOneDay = 1000 * 60 * 60 * 24;
 
+const today = new Date();
+
 function generateNewREADME() {
   const readmeRow = readme.split('\n');
 
@@ -20,6 +22,7 @@ function generateNewREADME() {
     age_and_birthday: getAgeAndBirthdaySentence(),
     myself: getMySelf(),
     today_date: getTodayDate(),
+    gabot_signing: getGabotSigning(),
   };
 
   Object.entries(identifierToUpdate).forEach(([key, value]) => {
@@ -29,13 +32,26 @@ function generateNewREADME() {
   return readmeRow.join('\n');
 }
 
+const moodByDay = {
+  1: 'hate',
+  2: 'wickedness',
+  3: 'pleasure',
+  4: 'wickedness',
+  5: 'cruelty',
+  6: 'horror',
+  7: 'love',
+};
+
+function getGabotSigning() {
+  const mood = moodByDay[today.getDay()];
+  return `🤖 This README.md is updated with ${mood}, by Gabot ❤️`;
+}
+
 function getTodayDate() {
-  return new Date().toDateString();
+  return today.toDateString();
 }
 
 function getMySelf() {
-  const today = new Date();
-
   // test if we are in a PAIR DAY
   return today.getDate() % 2 === 0
     ? Math.floor(Math.random() * 2)
@@ -46,7 +62,6 @@ function getMySelf() {
 
 function getAgeAndBirthdaySentence() {
   const birthday = new Date('2002-05-06T00:00:00.000Z');
-  const today = new Date();
 
   const diffBirthdayToToday = today - birthday;
 
@@ -75,11 +90,10 @@ function getAgeAndBirthdaySentence() {
 }
 
 function getDBNWSentence() {
-  const now = new Date();
-  const nextYear = now.getFullYear() + 1;
+  const nextYear = today.getFullYear() + 1;
   const nextYearDate = new Date(String(nextYear));
 
-  const timeUntilNewYear = nextYearDate - now;
+  const timeUntilNewYear = nextYearDate - today;
   const dayUntilNewYear = Math.round(timeUntilNewYear / msInOneDay);
 
   return `**${dayUntilNewYear} day before ${nextYear} ⏱**`;
