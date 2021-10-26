@@ -17,7 +17,6 @@ function generateNewREADME() {
   const identifierToUpdate = {
     // * DBNW = Day Before New Year
     day_before_new_years: getDBNWSentence(),
-    //* AB = Age and birthday
     age_and_birthday: getAgeAndBirthdaySentence(),
     myself: getMySelf(),
     today_date: getTodayDate(),
