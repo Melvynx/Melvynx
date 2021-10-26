@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I represent myself as a penguin 🐧 and I work at QoQa.ch as otter 🦦.
+I represent myself as a bear 🐻 and I work at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 💬 Speak with me on [Twitter](https://twitter.com/melvynx_)
