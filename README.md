@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I represent myself as a penguin 🐧 and I work at QoQa.ch as otter 🦦.
+I represent myself as a penguin bear 🐧🐻 and I work at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 💬 Speak with me on [Twitter](https://twitter.com/melvynx_)
@@ -57,6 +57,6 @@ I love using **github pages** to publish my projects quickly and easily. My main
 
 <img align="center" src="https://img.shields.io/github/followers/Melvynx?label=Follow%20my%20github%20%E2%9D%A4%EF%B8%8F&style=flat&color=red" alt="melvynx follow" />
 
-Last update on Tue Oct 26 2021
+Last update on Wed Oct 27 2021
 
-🤖 This README.md is updated with wickedness, by Gabot ❤️
+🤖 This README.md is updated with pleasure, by Gabot ❤️
