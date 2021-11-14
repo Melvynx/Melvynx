@@ -3,10 +3,6 @@
 I represent myself as a bear 🐻 and I work at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
-
-
-
-
 💬 Speak with me on [Twitter](https://twitter.com/melvynx_)
 
 I am 19 years old... But I will be 20 in 173 days 🎉
