@@ -57,7 +57,7 @@ I love using **github pages** to publish my projects quickly and easily. My main
 
 <img src="https://profile-counter.glitch.me/Melvynx/count.svg" />
 
-Added the `Mon 3 Jan 2022`
+Added the \`Mon 3 Jan 2022\`
 
 ### Links
 
