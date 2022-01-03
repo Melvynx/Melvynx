@@ -57,6 +57,8 @@ I love using **github pages** to publish my projects quickly and easily. My main
 
 <img src="https://profile-counter.glitch.me/Melvynx/count.svg" />
 
+Added the `Mon 3 Jan 2022`
+
 ### Links
 
 <img align="center" src="https://img.shields.io/github/followers/Melvynx?label=Follow%20my%20github%20%E2%9D%A4%EF%B8%8F&style=flat&color=red" alt="melvynx follow" />
