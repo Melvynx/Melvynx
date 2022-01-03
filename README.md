@@ -5,9 +5,9 @@ Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 💬 Speak with me on [Twitter](https://twitter.com/melvynx_)
 
-I am 19 years old... But I will be 20 in 123 days 🎉
+I am 19 years old... But I will be 20 in 122 days 🎉
 
-Here is my homemade daytime ☀️ counter before next year ⏱ **363 day before 2023 ⏱**
+Here is my homemade daytime ☀️ counter before next year ⏱ **362 day before 2023 ⏱**
 
 ### My skills 😛
 
@@ -56,6 +56,8 @@ I love using **github pages** to publish my projects quickly and easily. My main
 ### Visitor count
 
 <img src="https://profile-counter.glitch.me/Melvynx/count.svg" />
+
+Added the `Mon 3 Jan 2022`
 
 ### Links
 
