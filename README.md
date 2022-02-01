@@ -5,9 +5,9 @@ Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 💬 Speak with me on [Twitter](https://twitter.com/melvynx_)
 
-I am 19 years old... But I will be 20 in 95 days 🎉
+I am 19 years old... But I will be 20 in 94 days 🎉
 
-Here is my homemade daytime ☀️ counter before next year ⏱ **335 day before 2023 ⏱**
+Here is my homemade daytime ☀️ counter before next year ⏱ **334 day before 2023 ⏱**
 
 ### My skills 😛
 
@@ -63,6 +63,6 @@ Added the `Mon 3 Jan 2022`
 
 <img align="center" src="https://img.shields.io/github/followers/Melvynx?label=Follow%20my%20github%20%E2%9D%A4%EF%B8%8F&style=flat&color=red" alt="melvynx follow" />
 
-Last update on Mon Jan 31 2022
+Last update on Tue Feb 01 2022
 
-🤖 This README.md is updated with hate, by Gabot ❤️
+🤖 This README.md is updated with wickedness, by Gabot ❤️
