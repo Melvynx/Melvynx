@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I represent myself as a penguin bear 🐧🐻 and I work at QoQa.ch as otter 🦦.
+I represent myself as a bear 🐻 and I work at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 ### Contact me
@@ -48,6 +48,6 @@ I create new project to learn more and more. My main [github pages](https://melv
 
 Added the `Mon 3 Jan 2022`
 
-Last update on Tue Feb 01 2022
+Last update on Wed Feb 02 2022
 
-🤖 This README.md is updated with wickedness, by Gabot ❤️
+🤖 This README.md is updated with pleasure, by Gabot ❤️
