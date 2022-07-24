@@ -1,15 +1,15 @@
 ### Hi there 👋
 
-I represent myself as a penguin bear 🐧🐻 and I work at QoQa.ch as otter 🦦.
+I represent myself as a bear 🐻 and I work at QoQa.ch as otter 🦦.
 Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 ### Contact me
 
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/MelvynX) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/12472736) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/Melvynx_) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](htttps://discord.gg/https://discord.gg/7bH7ktRy)
 
-I am 20 years old... But I will be 21 in 287 days 🎉
+I am 20 years old... But I will be 21 in 286 days 🎉
 
-Here is my homemade daytime ☀️ counter before next year ⏱ **162 day before 2023 ⏱**
+Here is my homemade daytime ☀️ counter before next year ⏱ **161 day before 2023 ⏱**
 
 ### About my knowledge 👨‍🎓
 
@@ -47,6 +47,6 @@ I create new project to learn more and more. My main [github pages](https://melv
 
 Added the `Mon 3 Jan 2022`
 
-Last update on Sat Jul 23 2022
+Last update on Sun Jul 24 2022
 
-🤖 This README.md is updated with horror, by Gabot ❤️
+🤖 This README.md is updated with undefined, by Gabot ❤️
