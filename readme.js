@@ -7,8 +7,6 @@ Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/MelvynX) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/12472736) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/Melvynx_) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](htttps://discord.gg/https://discord.gg/7bH7ktRy)
 
-<#age_and_birthday>
-
 Here is my homemade daytime ☀️ counter before next year ⏱ <#day_before_new_years>
 
 ### About my knowledge 👨‍🎓
