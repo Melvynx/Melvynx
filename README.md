@@ -7,7 +7,7 @@ Web, mobile backend, I try to touch everything. I prefer the web for now.
 
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/MelvynX) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/12472736) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/Melvynx_) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](htttps://discord.gg/https://discord.gg/7bH7ktRy)
 
-Here is my homemade daytime ☀️ counter before next year ⏱ **1 day before 2023 ⏱**
+Here is my homemade daytime ☀️ counter before next year ⏱ **365 day before 2024 ⏱**
 
 ### About my knowledge 👨‍🎓
 
@@ -45,6 +45,6 @@ I create new project to learn more and more. My main [github pages](https://melv
 
 Added the `Mon 3 Jan 2022`
 
-Last update on Sat Dec 31 2022
+Last update on Sun Jan 01 2023
 
-🤖 This README.md is updated with horror, by Gabot ❤️
+🤖 This README.md is updated with undefined, by Gabot ❤️
