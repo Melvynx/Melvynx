@@ -1,7 +1,6 @@
 module.exports = `### Hi there 👋
 
-I represent myself as a <#myself> and I work at QoQa.ch as otter 🦦.
-Web, mobile backend, I try to touch everything. I prefer the web for now.
+I represent myself as a <#myself> and I'm independant. I've learn Web, Mobile and Backend, I try to touch everything. I prefer the web for now.
 
 ### Contact me
 
