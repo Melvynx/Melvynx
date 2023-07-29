@@ -18,9 +18,7 @@ function generateNewREADME() {
   }
 
   const identifierToUpdate = {
-    // * DBNW = Day Before New Year
     day_before_new_years: getDBNWSentence(),
-    myself: getMySelf(),
     today_date: getTodayDate(),
     gabot_signing: getGabotSigning(),
   };
@@ -64,7 +62,7 @@ function getDBNWSentence() {
   const nextYear = today.getFullYear() + 1;
   const nextYearDate = new Date(String(nextYear));
 
-  const timeUntilNewYear = nextYearDate - today;
+  const timeUntilNewYear = nextYearDate.getTime() - today.getTime();
   const dayUntilNewYear = Math.round(timeUntilNewYear / msInOneDay);
 
   return `**${dayUntilNewYear} day before ${nextYear} ⏱**`;
@@ -73,8 +71,7 @@ function getDBNWSentence() {
 const findIdentifierIndex = (rows, identifier) =>
   rows.findIndex((r) => Boolean(r.match(new RegExp(`<#${identifier}>`, 'i'))));
 
-const updateREADMEFile = (text) =>
-  fs.writeFile('./README.md', text, () => console.log(text));
+const updateREADMEFile = (text) => fs.writeFile('./README.md', text);
 
 function main() {
   const newREADME = generateNewREADME();
