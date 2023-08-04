@@ -40,8 +40,8 @@ I want to create 1 project per month, so future projects will be added here.
 
 Added the `Mon 3 Jan 2022`
 
-Last update on Thu Aug 03 2023
+Last update on Fri Aug 04 2023
 
-**151 day before 2024 ⏱** days before new years
+**150 day before 2024 ⏱** days before new years
 
-🤖 This README.md is updated with wickedness, by Gabot ❤️
+🤖 This README.md is updated with cruelty, by Gabot ❤️
