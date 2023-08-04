@@ -9,7 +9,6 @@ And... I create online courses in french to help developers to master modern web
 * [Twitter](https://twitter.com/melvynxdev)
 * [Youtube](https://www.youtube.com/channel/UC5HDIVwuqoIuKKw-WbQ4CvA)
 * [Mail](mailto:contact@melvynx.com)
-* [Website](https://melvynx.com)
 * [Linkedin](https://www.linkedin.com/in/melvyn-malherbe/)
 
 ### My projects
@@ -30,9 +29,9 @@ My online courses plateforme. I created BeginReact, NextReact and BeginJavaScrip
 
 A ChatGPT like application that create and generate component directly in the browser. Stop wasting time copy pasting code from ChatGPT to your editor, Chat2Code bring editor in the chat.
 
-* [Soon](https://soon.com)
+* [QuizUp](https://quizup.app)
 
-I want to create 1 project per month, so future projects will be added here.
+Create a quiz with multiple choice and open questions with input. The next generation of quiz.
 
 ### Visitor count
 
