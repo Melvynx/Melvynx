@@ -39,8 +39,8 @@ Create a quiz with multiple choice and open questions with input. The next gener
 
 Added the `Mon 3 Jan 2022`
 
-Last update on Fri Aug 18 2023
+Last update on Sat Aug 19 2023
 
-**136 day before 2024 ⏱** days before new years
+**135 day before 2024 ⏱** days before new years
 
-🤖 This README.md is updated with cruelty, by Gabot ❤️
+🤖 This README.md is updated with horror, by Gabot ❤️
