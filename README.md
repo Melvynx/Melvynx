@@ -43,8 +43,8 @@ Correct the grammar of an entire book in 5 minutes.
 
 Added the `Mon 3 Jan 2022`
 
-Last update on Thu Nov 30 2023
+Last update on Fri Dec 01 2023
 
-**32 day before 2024 ⏱** days before new years
+**31 day before 2024 ⏱** days before new years
 
-🤖 This README.md is updated with cruelty, by Gabot ❤️
+🤖 This README.md is updated with horror, by Gabot ❤️
