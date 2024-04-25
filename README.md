@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I create application on the web and share my journey on [Twitter](https://twitter.com/melvynxdev) and [Youtube](https://www.youtube.com/channel/UC5HDIVwuqoIuKKw-WbQ4CvA) !
+I create application on the web and share my journey on [Twitter](https://mlv.sh/twitter) and [Youtube](https://mlv.sh/youtube) !
 
 And... I create online courses in french to help developers to master modern web technologies.
 
