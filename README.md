@@ -1,8 +1,8 @@
 ### Hi there 👋
 
-I create applications on the web and share my journey on [Twitter](https://mlv.sh/twitter) and [Youtube](https://mlv.sh/youtube) !
+I create application on the web and share my journey on [Twitter](https://mlv.sh/twitter) and [Youtube](https://mlv.sh/youtube) !
 
-And... I create online courses in French to help developers master modern web technologies.
+And... I create online courses in french to help developers to master modern web technologies.
 
 ### Contact me
 
@@ -24,15 +24,15 @@ My blog and my newsletter website.
 
 * [Codeline](https://mlv.sh/codeline)
 
-My online courses plateform. I created BeginReact, NextReact and BeginJavaScript.
+My online courses plateforme. I created BeginReact, NextReact and BeginJavaScript.
 
 * [Chat2Code](https://mlv.sh/chat2code)
 
-A ChatGPT-like application that creates and generates components directly in the browser. Stop wasting time copy-pasting code from ChatGPT to your editor, Chat2Code brings the editor into the chat.
+A ChatGPT like application that create and generate component directly in the browser. Stop wasting time copy pasting code from ChatGPT to your editor, Chat2Code bring editor in the chat.
 
 * [QuizUp](https://mlv.sh/quizup)
 
-Create a quiz with multiple-choice and open-questions with input. The next generation quiz.
+Create a quiz with multiple choice and open questions with input. The next generation of quiz.
 
 * [BulkCorrector](https://mlv.sh/bulkcorrector)
 
