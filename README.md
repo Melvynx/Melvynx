@@ -56,8 +56,8 @@ Create a daily note without any friction.
 
 Added the `Mon 3 Jan 2022`
 
-Last update on Thu Jan 08 2026
+Last update on Fri Jan 09 2026
 
-**358 day before 2027 ⏱** days before new years
+**357 day before 2027 ⏱** days before new years
 
-🤖 This README.md is updated with cruelty, by Gabot ❤️
+🤖 This README.md is updated with horror, by Gabot ❤️
